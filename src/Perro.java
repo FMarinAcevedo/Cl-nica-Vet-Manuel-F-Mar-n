@@ -1,5 +1,7 @@
 public class Perro extends Paciente {
 
+    public static final double PESO_MAXIMO = 80;
+
     private String raza;
     private boolean vacunado;
 
@@ -12,7 +14,7 @@ public class Perro extends Paciente {
 
     @Override
     public double getPesoMaximo() {
-        return 80;
+        return PESO_MAXIMO;
     }
 
     @Override

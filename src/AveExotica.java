@@ -1,5 +1,7 @@
 public class AveExotica extends Paciente {
 
+    public static final double PESO_MAXIMO = 15;
+
     private double envergadura;
 
     public AveExotica(String nombre, double peso, int edad, double envergadura) {
@@ -9,7 +11,7 @@ public class AveExotica extends Paciente {
 
     @Override
     public double getPesoMaximo() {
-        return 15;
+        return PESO_MAXIMO;
     }
 
     @Override

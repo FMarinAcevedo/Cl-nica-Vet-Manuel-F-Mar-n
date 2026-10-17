@@ -1,5 +1,7 @@
 public class Gato extends Paciente {
 
+    public static final double PESO_MAXIMO = 15;
+
     private int nivelEstres;
 
     public Gato(String nombre, double peso, int edad, int nivelEstres) {
@@ -9,7 +11,7 @@ public class Gato extends Paciente {
 
     @Override
     public double getPesoMaximo() {
-        return 15;
+        return PESO_MAXIMO;
     }
 
     @Override
